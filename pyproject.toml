@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vnpy_akshare_adapter"
+version = "1.0.0"
+description = "AKShare数据服务接口 - VeighNa框架的数据接口适配"
+readme = "README.md"
+authors = [
+    {name = "wade1010", email = "640297@qq.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "vnpy>=4.0.0",
+    "akshare>=1.16.98"
+]
+keywords = ["vnpy", "quant", "akshare", "trading", "investment"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/wade1010/vnpy_akshare"
+Repository = "https://github.com/wade1010/vnpy_akshare"
+Issues = "https://github.com/wade1010/vnpy_akshare/issues"
+
+[tool.setuptools]
+packages = ["vnpy_akshare"]
+
+[tool.setuptools.package-dir]
+"" = "." 

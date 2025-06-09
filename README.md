@@ -15,7 +15,7 @@
 
 测试时间 2025-6-9 16:45:39
 
-akshare 目前能适配vnpy下载的， 只支持 分钟、日、周
+akshare 目前能适配vnpy下载的， 只支持 分钟、日、周。注意1分钟数据只返回近5个交易日数据且不复权。
 
 <p align="center">
   <img src="images/period.png" alt="日线" width="800"/>
